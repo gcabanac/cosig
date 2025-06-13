@@ -49,6 +49,7 @@ Suggestions to improve COSIG can be submitted by opening an issue on [COSIG's Gi
 
 * [Evaluating the performance of binary classifiers](https://osf.io/pvr4a)
 * [Evaluating the performance of multiclass classifiers](https://osf.io/5x2rp)
+* [Granularity-related inconsistency of means (GRIM)](https://osf.io/67bp4)
 * [Standard deviation versus standard error](https://osf.io/hp4yd)
 * [Multiple hypothesis correction](https://osf.io/csxd5)
 

@@ -51,11 +51,11 @@
 
 \section*{Nucleotide sequence reagents}
 \addcontentsline{toc}{section}{Nucleotide sequence reagents}
-\textit{Last updated: 3 June 2025}
+\textit{Last updated: 18 June 2025}
 
 Nucleotide sequence reagents, short strands of DNA or RNA, are frequently used in a variety of biomedical experiments. Because the sequence of base pairs that compose a nucleotide sequence reagent are \href{https://doi.org/10.1373/clinchem.2008.112797}{expected to be} specified in articles that use these reagents and because the genomes of most organisms used in these experiments are well-characterized, nucleotide sequence reagents are readily verifiable. In other words, most nucleotide sequence reagents can be fact-checked to ensure that they would work as described.
 
-\textit{Note: Nucleotide sequences are typically written and read from the 5\'{} (``five prime'') end to the 3\'{} (``three prime'') end. This guide follows that convention.}
+\textit{Note: Nucleotide sequences are written and read from the 5\'{} (``five prime'') end to the 3\'{} (``three prime'') end. This guide follows that convention.}
 
 \subsection*{Types of nucleotide sequence reagents}
 
@@ -67,9 +67,9 @@ PCR is a laboratory technique used to make numerous copies of, or \emph{amplify}
 
 \begin{itemize}
     \setlength\itemsep{-0.5em}
-    \item \textbf{Each primer should be 18 - 24 bp long.}
+    \item \textbf{Each primer is typically 17 to 20 bases long.}
     \item \textbf{Primers should have a \href{https://en.wikipedia.org/wiki/GC-content}{GC content} of 40 - 60\%.} Guanine and cytosine bond with three hydrogen bonds, as opposed to adenine and thymine, which bond with two. As a result, GC bonds are stronger are more difficult to break than AT bonds. Primers must have high enough GC content to ensure strong binding between the primer and the template strand, but not so high that the primer sequence is not unique or complex enough to bind specifically to the template strand.
-    \item \textbf{The last five bases at the 3\'{} end of each primer should contain 1-2 GC bases.} This inclusion is known as as \emph{GC clamp}. Some guides recommend both starting and ending each primer sequence with 1-2 G or C base pairs. Including more GC bases than this can impair primer specificity. 
+    \item \textbf{The last five bases at the 3\'{} end of each primer should contain 1-2 GC bases.} This inclusion is known as as \emph{GC clamp}. Some guides recommend both starting and ending each primer sequence with 1-2 G or C bases. Including more GC bases than this can impair primer specificity. 
     \item \textbf{The melting temperature between each primer should be between 50 - 60 °C and with 5 °C of the other primer's melting temperature.} Melting temperature ($T_m$) is the temperature at which half of the primers will dissociate from the template strand. Melting temperature in Celsius can be roughly estimated by $T_m = 2(A+T) + 4(G+C)$, although more precise estimates of melting temperature can be obtained with online calculators (like \href{https://www.thermofisher.com/us/en/home/brands/thermo-scientific/molecular-biology/molecular-biology-learning-center/molecular-biology-resource-library/thermo-scientific-web-tools/tm-calculator.html}{Thermo Fisher's}).
     \item \textbf{Primers and primer pairs should not contain complementary regions.} Complementary regions within a primer sequence can cause the primer to form a secondary structure (e.g., a loop), preventing the primer from binding properly. Similarly, complementary sequences on both the forward and reverse primer can cause the primers to bind to each other.
 \end{itemize}
@@ -90,7 +90,11 @@ RT-PCR is used to amplify sections of RNA. More specifically, a \href{https://en
 
 \subsubsection*{Small interfering RNAs (siRNAs) and short hairpin RNAs (shRNAs)}
 
-siRNAs and shRNAs are nucleotide reagents used for RNA interference (\emph{RNAi}). siRNAs are typically double-stranded RNA molecules 18-30 bp long. shRNAs are a single strand of RNA with internally complementary regions (i.e., regions that \emph{hybridize} to one another, forming a \emph{stem-loop structure} where the stem is typically 20-24 bp long and the loop is typically 4-10 bp long. The sequences of siRNAs and the stem region of shRNAs should target unique regions of the transcript of interest. siRNA/shRNA experiments typically use an additional non-targeting sequence (typically one of the targeting sequences with a scrambled sequence) as a negative control. Typically, multiple targeting sequences are used to enhance the efficiency of gene silencing.
+siRNAs and shRNAs are nucleotide reagents used for \href{https://en.wikipedia.org/wiki/RNA_interference}{RNA interference (RNAi)}. siRNAs are transfected into cells are double-stranded duplexes, but only one strand serves as the reagent itself. siRNAs are typically 17 to 21 bases in length. 
+
+shRNAs are a single strand of RNA with internally complementary regions (i.e., regions that \emph{hybridize} to one another), forming a \emph{stem-loop structure} where the targeting sequence is typically 17 to 21 bases in length and the loop is typically 6 bases long. shRNAs are transfected into cells as double-stranded DNA vectors than then transcribe into a single strand of RNA that folds into a hairpin. The hairpin is processed to a double-stranded RNA, where one strand serves as the reagent itself.
+
+siRNAs and shRNAs should target unique regions of the transcript of interest. siRNA/shRNA experiments typically use an additional non-targeting sequence as a negative control. Although this non-targeting sequence is often a scrambled version of one of the targeting sequences, these scrambled sequences are often not truly non-targeting. It is best to use dedicated sequences that have been specifically designed to be non-targeting. Typically, multiple targeting sequences are used to enhance the efficiency and specificity of gene silencing.
 
 \subsection*{Checking nucleotide sequences}
 

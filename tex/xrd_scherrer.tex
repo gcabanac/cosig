@@ -1,70 +1,10 @@
 \documentclass[letterpaper, 12pt]{article}
-
-\usepackage{geometry}
- \geometry{
- letterpaper,
- total={170mm,257mm},
- left=20mm,
- top=20mm,
- bottom=20mm
- }
-\usepackage{graphicx} % Required for inserting images
-\usepackage{authblk}
-\usepackage{amssymb}
-\usepackage{lipsum}
-\usepackage{float}
-\usepackage{times}
-\usepackage{amsmath}
-\usepackage[format=plain,
-            labelfont={bf,it},
-            textfont=it]{caption}
-\captionsetup{justification=raggedright,singlelinecheck=false}
-\usepackage{ragged2e}
-\usepackage{longtable}
-\usepackage{comment}
-\usepackage{setspace}
-\usepackage{fancyhdr}
-\usepackage{titlesec}
-\usepackage[hyperindex,breaklinks]{hyperref}
-\hypersetup{
-    colorlinks=true,
-    linkcolor=blue,
-    filecolor=magenta,      
-    urlcolor=blue
-    }
-% \usepackage{background} % add COSIG logo to page
-\usepackage[T1]{fontenc}
-\usepackage{helvet}
-\renewcommand{\familydefault}{\sfdefault}
-\pagenumbering{gobble}
-\usepackage[skip=10pt plus1pt, indent=40pt]{parskip}
-
-\begin{comment}
-\backgroundsetup{
-   scale=1,
-   angle=0,
-   opacity=1,
-   color=black,
-   contents={\begin{tikzpicture}[remember picture, overlay]
-      \node at ([xshift=3cm,yshift=1cm] current page.south west)
-            {\includegraphics[width = 5cm]{img/home/241017_final_logo_mockup.png}}; %<- change the name of image
-     \end{tikzpicture}}
- }
-\end{comment}
-
-\titlespacing*{\section}
-{0pt}{1.5ex plus 1ex minus .2ex}{1.3ex plus .2ex}
-
-\renewcommand\Authfont{\fontsize{12}{14.4}\selectfont}
-\renewcommand\Affilfont{\fontsize{9}{10.8}\itshape}
- 
+\input{tex/_preamble}
 \begin{document}
-\flushleft
-\includegraphics[width=0.5\textwidth]{img/home/241017_final_logo_mockup.png}
+\flushleft\includegraphics[width=0.5\textwidth]{img/home/241017_final_logo_mockup.png}
 
-\addcontentsline{toc}{part}{Materials science and chemistry}
-\section*{X-ray diffraction patterns - Scherrer's equation}
-\addcontentsline{toc}{section}{X-ray diffraction patterns - Scherrer's equation}
+\cosigpart{Materials science and chemistry}
+\cosigsection{X-ray diffraction patterns - Scherrer's equation}
 \textit{Last updated: 19 May 2025}
 
 \subsection*{X-ray diffraction patterns/diffractograms}
@@ -96,7 +36,7 @@ $$ \text{crystallite size} \leq \text{grain size} \leq \text{particle size}$$
 
 \subsection*{Scherrer's equation}
 
-\href{}{Scherrer's equation} (sometimes called the Scherrer relation or the Debye-Scherrer equation, though \href{https://doi.org/10.1038/nnano.2011.145}{not without controversy}) is a formula for estimating the mean crystallite size within a material based on the width of peaks in its XRD pattern. For a mean crystallite size of $D$, Scherrer's equation is
+\href{https://en.wikipedia.org/wiki/Scherrer_equation}{Scherrer's equation} (sometimes called the Scherrer relation or the Debye-Scherrer equation, though \href{https://doi.org/10.1038/nnano.2011.145}{not without controversy}) is a formula for estimating the mean crystallite size within a material based on the width of peaks in its XRD pattern. For a mean crystallite size of $D$, Scherrer's equation is
 
 $$ D = \frac{K \lambda}{\beta \cos \theta} $$
 

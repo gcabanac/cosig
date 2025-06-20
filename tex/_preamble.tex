@@ -1,0 +1,54 @@
+\usepackage{geometry}
+\geometry{
+    letterpaper,
+    left=20mm,
+    top=20mm,
+    bottom=20mm
+}
+\usepackage{tocloft}
+\usepackage{graphicx}
+\usepackage{authblk}
+\usepackage{amssymb}
+\usepackage{lipsum}
+\usepackage{float}
+\usepackage{times}
+\usepackage{amsmath}
+\usepackage[format=plain,
+            labelfont={bf,it},
+            textfont=it]{caption}
+\captionsetup{justification=raggedright,singlelinecheck=false}
+\usepackage{ragged2e}
+\usepackage{longtable}
+\usepackage{comment}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage[hyperindex,breaklinks]{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue
+}
+\usepackage[T1]{fontenc}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\pagenumbering{gobble}
+\usepackage[skip=10pt plus1pt, indent=40pt]{parskip}
+\usepackage{orcidlink}
+\usepackage{standalone}
+
+\titlespacing*{\section}
+{0pt}{1.5ex plus 1ex minus .2ex}{1.3ex plus .2ex}
+
+\renewcommand\Authfont{\fontsize{12}{14.4}\selectfont}
+\renewcommand\Affilfont{\fontsize{9}{10.8}\itshape}
+
+\newcommand{\cosigpart}[1]{
+  \addcontentsline{toc}{part}{#1}
+}
+\newcommand{\cosigsection}[1]{
+  \section*{#1}
+  \phantomsection % avoid warnings from hyperref about the anchor of a bookmark and its parent's
+  \addcontentsline{toc}{section}{#1}
+}

@@ -1,56 +1,9 @@
 \documentclass[letterpaper, 12pt]{article}
-
-\usepackage{geometry}
- \geometry{
- letterpaper,
- total={170mm,257mm},
- left=20mm,
- top=20mm,
- bottom=20mm
- }
-\usepackage{graphicx} % Required for inserting images
-\usepackage{authblk}
-\usepackage{amssymb}
-\usepackage{lipsum}
-\usepackage{float}
-\usepackage{times}
-\usepackage{amsmath}
-\usepackage[format=plain,
-            labelfont={bf,it},
-            textfont=it]{caption}
-\captionsetup{justification=raggedright,singlelinecheck=false}
-\usepackage{ragged2e}
-\usepackage{longtable}
-\usepackage{comment}
-\usepackage{setspace}
-\usepackage{fancyhdr}
-\usepackage{titlesec}
-\usepackage[hyperindex,breaklinks]{hyperref}
-\hypersetup{
-    colorlinks=true,
-    linkcolor=blue,
-    filecolor=magenta,      
-    urlcolor=blue
-    }
-% \usepackage{background} % add COSIG logo to page
-\usepackage[T1]{fontenc}
-\usepackage{helvet}
-\renewcommand{\familydefault}{\sfdefault}
-\pagenumbering{gobble}
-\usepackage[skip=10pt plus1pt, indent=40pt]{parskip}
-
-\titlespacing*{\section}
-{0pt}{1.5ex plus 1ex minus .2ex}{1.3ex plus .2ex}
-
-\renewcommand\Authfont{\fontsize{12}{14.4}\selectfont}
-\renewcommand\Affilfont{\fontsize{9}{10.8}\itshape}
- 
+\input{tex/_preamble}
 \begin{document}
-\flushleft
-\includegraphics[width=0.5\textwidth]{img/home/241017_final_logo_mockup.png}
+\flushleft\includegraphics[width=0.5\textwidth]{img/home/241017_final_logo_mockup.png}
 
-\section*{X-ray diffraction patterns - data duplication}
-\addcontentsline{toc}{section}{X-ray diffraction patterns - data duplication}
+\cosigsection{X-ray diffraction patterns - data duplication}
 \textit{Last updated: 22 May 2025}
 
 Data duplication refers to the practice of using the same data to represent different things. Readers don't usually have access to the raw data appearing in an article's figures and thus data duplication can often be difficult to spot. Furthermore, image forensics tools designed to find duplicated images will often not spot duplications in other data formats.

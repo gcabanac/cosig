@@ -4,7 +4,7 @@
 \flushleft\includegraphics[width=0.5\textwidth]{img/home/241017_final_logo_mockup.png}
 
 \cosigsection{Granularity-related inconsistency of means (GRIM)}
-\textit{Last updated: 13 June 2025}
+\textit{Last updated: 20 June 2025}
 
 % Reese: Let's restrict this guide to just be about GRIM--GRIMMER requires a bit more explanation, as do SPRITE/CORVIDS/DEBIT/etc. Each can occupy their own guide!
 
@@ -108,7 +108,7 @@ GRIM testing may be misled by unreported methodological steps undertaken by the 
 
 Researchers are expected to report all relevant methodological choices in an article. If you find that certain values reported in an article fail GRIM testing, consider whether certain undocumented methodological choices could have produced these values. Similarly, consider whether authors may have misreported the number of participants (e.g., ``20 participants'' was accidentally misreported as ``21 participants'').
 
-GRIM testing can also be complicated by missing data at the participant level. For example, if the measurement instrument was reported to be a five-item self-reported Likert scale that was mean-scored at the participant, we would expect each participant's mean score ends in .0, .2, .4, .6 or .8. This places constraints on what the sample mean scores can plausibly be (and \texttt{items} would be set to 5 when calculating GRIM, as five items were averaged over at the participant level before calculating the sample mean). However, if a participant had missing data, this would throw off the calculation of GRIM for the sample mean. For example, if a participant only provided responses to four of the five Likert items, their mean score would have to end in .00, .25, .50 or .75. When an unknown number of participants has missing data because this was not reported in the article, this could make it impossible to correctly determine which sample means are GRIM-consistent.
+GRIM testing can also be complicated by missing data at the participant level. For example, if the measurement instrument was reported to be a five-item self-reported Likert scale that was mean-scored at the participant, we would expect each participant's mean score ends in .0, .2, .4, .6 or .8. This places constraints on what the sample mean scores can plausibly be (and \texttt{items} would be set to 5 when calculating GRIM, as five items were averaged over at the participant level before calculating the sample mean). However, if a participant had missing data, this would throw off the calculation of GRIM for the sample mean. For example, if a participant only provided responses to four of the five Likert items, their mean score would have to end in .00, .25, .50 or .75. When an unknown number of participants have missing data because this was not reported in the article, this could make it impossible to correctly determine which sample means are GRIM-consistent.
 
 \begin{comment}
     

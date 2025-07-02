@@ -7,7 +7,7 @@
 
 However, investigating the integrity of the published scientific literature often requires domain-specific knowledge that not everyone will have. This open source project is a collection of guides written and maintained by publication integrity experts to distribute this domain-specific knowledge so that others can participate in post-publication peer review.
 
-COSIG currently hosts 29 guides and was last updated on 24 June 2025. Guides can be downloaded as [individual PDFs](https://osf.io/2kdez/files/osfstorage). A combined PDF with all guides included can be downloaded [here](https://osf.io/ynb8j).
+COSIG currently hosts 30 guides and was last updated on 2 July 2025. Guides can be downloaded as [individual PDFs](https://osf.io/2kdez/files/osfstorage). A combined PDF with all guides included can be downloaded [here](https://osf.io/ynb8j).
 
 Suggestions to improve COSIG can be submitted by opening an issue on [COSIG's GitHub repo](https://github.com/cosig-pppr/cosig/issues) or by emailing [admin@cosig.net](mailto:admin@cosig.net). Before contributing, read COSIG's [Contributing](https://github.com/cosig-pppr/cosig/blob/main/CONTRIBUTING.md) and [Code of Conduct](https://github.com/cosig-pppr/cosig/blob/main/CODE_OF_CONDUCT.md) pages.
 
@@ -56,6 +56,7 @@ Suggestions to improve COSIG can be submitted by opening an issue on [COSIG's Gi
 * [Granularity-related inconsistency of means (GRIM)](https://osf.io/67bp4)
 * [Standard deviation versus standard error](https://osf.io/hp4yd)
 * [Multiple hypothesis correction](https://osf.io/csxd5)
+* [Data leakage](https://osf.io/d8mzb)
 
 ## **License and citation**
 

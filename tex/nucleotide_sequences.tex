@@ -4,7 +4,7 @@
 \flushleft\includegraphics[width=0.5\textwidth]{img/home/241017_final_logo_mockup.png}
 
 \cosigsection{Nucleotide sequence reagents}
-\textit{Last updated: 20 June 2025}
+\textit{Last updated: 2 July 2025}
 
 Nucleotide sequence reagents, short strands of DNA or RNA, are frequently used in a variety of biomedical experiments. Because the sequence of base pairs that compose a nucleotide sequence reagent are \href{https://doi.org/10.1373/clinchem.2008.112797}{expected to be} specified in articles that use these reagents and because the genomes of most organisms used in these experiments are well-characterized, nucleotide sequence reagents are readily verifiable. In other words, most nucleotide sequence reagents can be fact-checked to ensure that they would work as described.
 
@@ -54,8 +54,6 @@ siRNAs and shRNAs should target unique regions of the transcript of interest. si
 Claimed nucleotide sequences can be checked against the transcripts and genes in the organism of interest using tools like \href{https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn}{BLAST} and \href{https://genome.ucsc.edu/cgi-bin/hgBlat}{BLAT}. The tool \href{https://scigendetection.imag.fr/TPD52/Vb/}{Seek \& Blastn} takes a PDF document as input, looks for human nucleotide sequence reagents and BLASTs these sequences against the human genome and transcriptome. The \href{https://dx.doi.org/10.17504/protocols.io.bjhpkj5n}{Seek \& Blastn Standard Operating Procedure (SOP)} describes how to use this tool in detail. If sequences of interest are not about human genes, skip to Step 5 of this SOP. If the sequences of interest are primers targeting microRNAs, skip to Step 6 of this SOP and consider searching for matching sequences in \href{https://www.mirbase.org/}{miRBase}. If the sequences of interest are RT-PCR primers claiming to target circular RNAs (circRNAs), consult the Methods section of \href{https://doi.org/10.1007/s00210-023-02846-2}{Pathmendra et al. (2024)}.
 
 Tools like BLAST and BLAT take text or files in the \href{https://en.wikipedia.org/wiki/FASTA_format}{.fasta format} as input. This allows multiple sequences to be queried at once. In this format, each entry has a header line (preceded by a `\verb|>|' character) that contains the name of the sequence (note that BLAT does not allow for space characters in the sequence name) and a sequence line containing the sequence. Properly formatted queries are provided in each of the examples below. Try copying these sections into BLAST or BLAT following Step 5 of the \href{https://dx.doi.org/10.17504/protocols.io.bjhpkj5n}{Seek \& Blastn Standard Operating Procedure} to familiarize yourself with these tools. Each of the examples below contain some incorrect sequences and some correct sequences.
-
-\pagebreak
 
 \subsection*{Example 1: Multiple claimed sequences targeting an unrelated gene}
 
